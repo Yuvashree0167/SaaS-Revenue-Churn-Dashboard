@@ -12,9 +12,3 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 (`python generate_data.py` regenerates `data.csv`.)
-
-## Deploy for a public URL (Streamlit Community Cloud)
-1. Push this folder to a public GitHub repo (app.py, data.csv, requirements.txt at the root).
-2. Go to https://share.streamlit.io, sign in with GitHub, click **Create app**.
-3. Pick the repo, branch `main`, main file `app.py`, then **Deploy**.
-4. Submit the resulting `https://<name>.streamlit.app` URL.
